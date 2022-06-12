@@ -1,21 +1,6 @@
+sexo = str(input('Imforme seu sexo: [M/F] ')).strip().upper()[0]
 
-sexo = 'FM'
+while sexo not in 'MmFf':
+    sexo = str(input('Dados inválidos. Por favor, informa seu sexo: ')).strip().upper()[0]
 
-while sexo == 'FM':
-    sexo = str(input('Digite seu sexo: ')).strip().upper
-print('Seu sexo é {}'.format()) 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+print('Sexo {} registrado com sucesso'.format(sexo))
