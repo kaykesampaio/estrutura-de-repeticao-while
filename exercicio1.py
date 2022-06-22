@@ -5,7 +5,7 @@ while c < 10:
     c = c + 1
 print('Fim')
 
-
+print('Fim parte 2')
 
 
 
